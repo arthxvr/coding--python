@@ -10,3 +10,4 @@ if prestacao <= limite:
     print('Empréstimo CONDEDIDO!')
 else:
     print(f'Empréstimo NEGADO!')
+
