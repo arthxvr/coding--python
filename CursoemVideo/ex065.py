@@ -1,7 +1,7 @@
-num = media = cont = soma = 0
+num = maior = menor = media = cont = soma = 0
 resp = '' 
 limite = False
-while not limite :
+while not limite:
     num = int(input('Digite um valor: '))
     soma += num
     cont += 1
