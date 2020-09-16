@@ -4,7 +4,7 @@ valores = []
 while True:
     num = int(input('Digite um valor: '))
     valores.append(num)
-    resp = str(input('Quer continuar [S/N] ')).strip().upper()
+    resp = str(input('Quer continuar? [S/N] ')).strip().upper()
     if num % 2 == 0:
         pares.append(num)
     else:
