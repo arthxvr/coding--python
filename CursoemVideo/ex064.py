@@ -1,6 +1,6 @@
 n = cont = soma = 0
 n = int(input('Digite um valor[999 para parar]: '))
-while not limite:
+while numero != 999:
     soma += n
     cont += 1
     n = int(input('Digite um valor[999 para parar]: '))
